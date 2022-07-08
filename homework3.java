@@ -99,7 +99,7 @@ public class homework3 {
         int x=in.nextInt();
         System.out.print("Введите целое число Y: ");
         int y=in.nextInt();
-        System.out.println(x<0&&0<y);
+        System.out.println(x<0&&y>0);
         */
         /*
 ------------------------------------------------------------------------------------------------
@@ -111,7 +111,7 @@ public class homework3 {
         int x=in.nextInt();
         System.out.print("Введите целое число Y: ");
         int y=in.nextInt();
-        System.out.println(x<0&&0<y||x<0&&0>y);
+        System.out.println(x<0&&y>0||x<0&&y<0);
         */
         /*
 ------------------------------------------------------------------------------------------------
